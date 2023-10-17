@@ -7,9 +7,9 @@ const Header = () => {
         <li><NavLink to="/statistics">Statistic</NavLink></li>
         <li><NavLink to="/applied" >Applied Jobs</NavLink></li>
         <li><NavLink to="/blogs" >Blogs</NavLink></li>
-        
 
-    </>
+
+    </> 
 
 
     return (
@@ -23,15 +23,15 @@ const Header = () => {
                         {links}
                     </ul>
                 </div>
-                <a className="btn btn-ghost normal-case text-xl">daisyUI</a>
+                <a className="btn btn-ghost normal-case text-xl">CareerHub</a>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">
-                   {links}
+                    {links}
                 </ul>
             </div>
             <div className="navbar-end">
-                <a className="btn">Button</a>
+                <a className="btn btn-primary">Start Apply</a>
             </div>
         </div>
     );
